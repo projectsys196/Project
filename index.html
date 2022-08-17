@@ -1,0 +1,77 @@
+<html>
+<head>
+        <title>Login</title>
+   <style>
+   .block{
+        margin-top:40;
+        margin-left:400;
+        margin-right:400;
+        margin-bottom: 300;
+        font-family: 'Times New Roman', Times, serif;
+        color: blue;
+        font-size: larger;
+        background-color:yellow;
+   }
+  
+    .div1{
+      margin-top: 30;
+      margin-left: 245;
+      margin-right: 700;
+      font-family: 'Times New Roman', Times, serif;
+      color: blue;
+    }
+      .un{
+       margin-left: 50;
+       margin-right:auto;
+      }
+      .pa{
+        margin-left: 50;
+       margin-right:auto;
+      }
+  .re{
+    margin-left: 190;
+       margin-right:auto;
+
+  }
+
+    .sub{
+        display: inline;
+        padding: 8px;
+        width: 75px;
+        margin-left: 190;
+        margin-right:auto ;
+    }
+
+    .sub1{
+         display: inline-block;
+        padding: 8px;
+        width: 75px;
+        margin-left: auto;
+        margin-right:auto ;
+    }
+   </style>   
+</head>
+<body> 
+
+
+<div class="block">
+      <div class="div1"><h1>Login</h1></div>        
+   
+       <form  action="ServletProgram" method="post">
+         <label class="un">UserName :</label>
+         <input class="un" type="text" name="username" placeholder="Enter your Username"  required>
+         <br>
+         <br>
+         <label class="pa">Password &nbsp :</label>
+         <input  class="pa" type="password" name="password" placeholder="Enter your Password" required>
+         <br>
+         <br>
+         <input class="sub" type="submit" value="Login">
+         <input class="sub1"   type="reset" >
+        </form>
+        <a class="re" href="Registration.html">Click here for Register<br>
+        <br>
+        </a>
+</div>
+</body>
+</html>
